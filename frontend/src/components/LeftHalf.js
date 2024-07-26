@@ -15,7 +15,7 @@ function LeftHalf() {
       try {
         setIsLoading(true); // Start loading state
 
-        const response = await axios.get('https://dota-hero-tracker-nodejs.onrender.com/matches');
+        const response = await axios.get('http://localhost:3000/matches');
         const matches = response.data;
 
         // Calculate stats for Turbo matches

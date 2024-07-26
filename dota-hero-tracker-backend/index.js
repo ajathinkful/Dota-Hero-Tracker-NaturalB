@@ -11,7 +11,7 @@ app.use(cors()); // Enable CORS for all routes
 
 const fetchAndStoreMatches = async () => {
   try {
-    const response = await axios.get('https://api.opendota.com/api/players/124197337/recentMatches');
+    const response = await axios.get('https://api.opendota.com/api/players/118660985/recentMatches');
     const matches = response.data;
 
     for (const match of matches) {

@@ -4,7 +4,7 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      connectionString: 'postgres://svhapqwh:rPT_DF_OpvGMaaZKvj6DtnxYIrxm0SoG@jelani.db.elephantsql.com/svhapqwh',
+      connectionString: 'postgres://ihumhuxa:humX4DD-bJGv2Grri4ZgOIOapyYMDbOK@isilo.db.elephantsql.com/ihumhuxa',
       ssl: {
         rejectUnauthorized: false,
       },
