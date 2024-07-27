@@ -14,7 +14,7 @@ function RightHalf() {
     const fetchMatches = async () => {
       try {
         setIsLoading(true); // Start loading state
-        const response = await axios.get('http://localhost:3000/matches');
+        const response = await axios.get('https://dota-hero-tracker-naturalb.onrender.com/matches');
         const sortedMatches = response.data.sort((a, b) => b.match_id - a.match_id);
         setMatches(sortedMatches);
       } catch (error) {
